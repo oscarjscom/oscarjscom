@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 250" width="860" height="250" role="img">
+<defs>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b9dff"/><stop offset="1" stop-color="#ff8a1f"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;}
+.in{opacity:0;animation:in .45s ease-out forwards}
+@keyframes in{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%{opacity:.9;transform:scale(.35)}100%{opacity:0;transform:scale(1)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes dash{to{stroke-dashoffset:-24}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}}
+@keyframes eq0{to{transform:scaleY(0.45)}}@keyframes eq1{to{transform:scaleY(0.7)}}@keyframes eq2{to{transform:scaleY(0.3)}}@keyframes eq3{to{transform:scaleY(0.85)}}
+</style>
+<rect x="1" y="1" width="858" height="248" rx="6" fill="#090c10" stroke="#25303c" stroke-width="1.5"/>
+<path d="M1 22V7a6 6 0 0 1 6-6h15M837 1h15a6 6 0 0 1 6 6v15M859 227v15a6 6 0 0 1-6 6h-15M22 249H7a6 6 0 0 1-6-6v-15" fill="none" stroke="#3b9dff" stroke-width="2.5"/>
+<circle cx="26" cy="24" r="5.5" fill="#ff5a36"/><circle cx="44" cy="24" r="5.5" fill="#ffc53d"/><circle cx="62" cy="24" r="5.5" fill="#39d353"/><text x="430.0" y="28" fill="#6f7d8c" font-size="12" font-weight="400" text-anchor="middle" xml:space="preserve">oscarjscom · shell · online</text><line x1="1" y1="46" x2="859" y2="46" stroke="#25303c"/>
+<rect x="22" y="62" width="548" height="166" rx="4" fill="#10161d" stroke="#8aa4bf" stroke-opacity=".7"/>
+<text x="40" y="90" fill="#3b9dff" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">❯</text><text x="60" y="90" fill="#3b9dff" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">whoami</text>
+<text x="40" y="114" fill="#dbe4ee" font-size="13" font-weight="400" text-anchor="start" xml:space="preserve">oscar_olano</text><text x="142" y="114" fill="#6f7d8c" font-size="13" font-weight="400" text-anchor="start" xml:space="preserve">—</text><text x="164" y="114" fill="#ffc53d" font-size="13" font-weight="700" text-anchor="start" xml:space="preserve">Desarrollador Full Stack en formación</text>
+<line x1="40" y1="126" x2="552" y2="126" stroke="#25303c"/>
+<text x="40" y="146" fill="#6f7d8c" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">contexto:</text><text x="126" y="146" fill="#8aa4bf" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">Lima, Perú · TECSUP</text>
+<text x="40" y="165" fill="#6f7d8c" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">misión:</text><text x="126" y="165" fill="#39d353" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">llevar ideas del sensor a la nube y a la pantalla</text>
+<text x="40" y="190" fill="#3b9dff" font-size="13" font-weight="700" text-anchor="start" xml:space="preserve">❯</text><text x="60" y="190" fill="#3b9dff" font-size="13" font-weight="700" text-anchor="start" xml:space="preserve">ls intereses/</text>
+<text x="40" y="208" fill="#ff8a1f" font-size="11.5" font-weight="400" text-anchor="start" xml:space="preserve">backend/</text><text x="106" y="208" fill="#dbe4ee" font-size="11.5" font-weight="400" text-anchor="start" xml:space="preserve">APIs REST · microservicios</text><text x="312" y="208" fill="#ff8a1f" font-size="11.5" font-weight="400" text-anchor="start" xml:space="preserve">iot/</text><text x="348" y="208" fill="#dbe4ee" font-size="11.5" font-weight="400" text-anchor="start" xml:space="preserve">sensores · tiempo real · 3D</text>
+<rect x="584" y="62" width="254" height="166" rx="4" fill="#10161d" stroke="#8aa4bf" stroke-opacity=".7"/>
+<text x="600" y="88" fill="#ffc53d" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">carga del sistema</text>
+<rect x="612" y="152" width="10" height="28" rx="2" fill="#3b9dff" opacity=".9" style="transform-origin:617px 180px;animation:eq0 1.40s ease-in-out infinite alternate"/>
+<rect x="629" y="128" width="10" height="52" rx="2" fill="#ff8a1f" opacity=".9" style="transform-origin:634px 180px;animation:eq1 1.65s ease-in-out infinite alternate"/>
+<rect x="646" y="140" width="10" height="40" rx="2" fill="#8aa4bf" opacity=".9" style="transform-origin:651px 180px;animation:eq2 1.90s ease-in-out infinite alternate"/>
+<rect x="663" y="110" width="10" height="70" rx="2" fill="#3b9dff" opacity=".9" style="transform-origin:668px 180px;animation:eq3 2.15s ease-in-out infinite alternate"/>
+<rect x="680" y="146" width="10" height="34" rx="2" fill="#ff8a1f" opacity=".9" style="transform-origin:685px 180px;animation:eq0 2.40s ease-in-out infinite alternate"/>
+<rect x="697" y="120" width="10" height="60" rx="2" fill="#8aa4bf" opacity=".9" style="transform-origin:702px 180px;animation:eq1 1.40s ease-in-out infinite alternate"/>
+<rect x="714" y="134" width="10" height="46" rx="2" fill="#3b9dff" opacity=".9" style="transform-origin:719px 180px;animation:eq2 1.65s ease-in-out infinite alternate"/>
+<rect x="731" y="104" width="10" height="76" rx="2" fill="#ffc53d" opacity=".9" style="transform-origin:736px 180px;animation:eq3 1.90s ease-in-out infinite alternate"/>
+<rect x="748" y="142" width="10" height="38" rx="2" fill="#8aa4bf" opacity=".9" style="transform-origin:753px 180px;animation:eq0 2.15s ease-in-out infinite alternate"/>
+<rect x="765" y="124" width="10" height="56" rx="2" fill="#3b9dff" opacity=".9" style="transform-origin:770px 180px;animation:eq1 2.40s ease-in-out infinite alternate"/>
+<rect x="782" y="150" width="10" height="30" rx="2" fill="#ff8a1f" opacity=".9" style="transform-origin:787px 180px;animation:eq2 1.40s ease-in-out infinite alternate"/>
+<rect x="799" y="132" width="10" height="48" rx="2" fill="#8aa4bf" opacity=".9" style="transform-origin:804px 180px;animation:eq3 1.65s ease-in-out infinite alternate"/>
+<line x1="600" y1="181" x2="822" y2="181" stroke="#3b9dff" stroke-width="1.5" filter="url(#glow)"/>
+<text x="600" y="216" fill="#6f7d8c" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">estado: aprendiendo y construyendo</text>
+</svg>
