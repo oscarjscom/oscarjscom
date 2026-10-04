@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209 40" width="209" height="40" role="img">
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}</style>
+<rect x="1" y="1" width="207" height="38" rx="4" fill="#111820" stroke="#39d353" stroke-width="1.5"/>
+<path d="M5 1h81v38H5a4 4 0 0 1-4-4V5a4 4 0 0 1 4-4z" fill="#39d353"/>
+<text x="43.0" y="25" fill="#0d1117" font-size="13" font-weight="700" letter-spacing="1.5" text-anchor="middle">GITHUB</text>
+<text x="147.6" y="25" fill="#e6edf3" font-size="13" font-weight="700" letter-spacing="1.5" text-anchor="middle">oscarjscom</text>
+</svg>

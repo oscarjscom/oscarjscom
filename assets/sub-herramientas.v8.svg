@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 30" width="860" height="30" role="img">
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes pulso{0%,100%{opacity:1;transform:translateX(0)}50%{opacity:.35;transform:translateX(4px)}}
+@keyframes corre{to{stroke-dashoffset:-28}}
+@keyframes brillo{0%,100%{fill:#a3e635}50%{fill:#d9f99d}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<text x="4" y="21" fill="#39d353" font-size="18" font-weight="700" style="animation:pulso 1.4s ease-in-out infinite">&gt;</text>
+<text x="30" y="20" font-size="14" font-weight="700" letter-spacing="2" style="animation:brillo 3s ease-in-out infinite" fill="#a3e635" xml:space="preserve">tools_and_platforms/</text>
+<line x1="248.6" y1="15" x2="856" y2="15" stroke="#39d353" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="2 12" style="animation:corre 1.2s linear infinite"/>
+</svg>
